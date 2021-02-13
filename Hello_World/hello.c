@@ -21,7 +21,8 @@ int main(void) {
     * Clears the ram of any currently In-The-Way
     * processes.
     * 
-    * it VOIDS everything, then defines the MAIN function.
+    * It takes no arguments; so we have to attach VOID as the argument
+    * to declare such.
     */
 
     printf("Hello World!\n");/*
