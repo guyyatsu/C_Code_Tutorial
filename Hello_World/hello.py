@@ -13,7 +13,8 @@ With C,  you first have to compile & generate an executable file;
     execute it as soon as you save it.
 
 You also don't have to designate the end of the line with a 
-    semicolon; Python COUNTS WHITESPACE.  Meaning a tab is 
+    semicolon; Python COUNTS WHITESPACE.  This allows the compiler the
+    ability to just 'get-what-you-mean' in a lot of instances; but it also means a tab is 
     different than a space, so if we indent we must EITHER
     use four spaces to equal a tab OR ONLY use spaces.
 
